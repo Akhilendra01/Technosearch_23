@@ -1,10 +1,11 @@
 import './App.css'
+import DrawerAppBar from 'src/components/Navbar';
 
 function App() {
 
   return (
     <>
-      <h1>hi</h1>
+      <DrawerAppBar/>
     </>
   )
 }
