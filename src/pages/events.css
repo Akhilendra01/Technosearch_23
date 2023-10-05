@@ -1,0 +1,54 @@
+.events {
+    height: 100vh;
+    background: #343434;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    color: #00FF85;
+    text-align: left;
+    font-family: Codystar;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.64px;
+}
+
+.style-1 {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 210%;
+    /* 58.8px */
+    text-transform: uppercase;
+}
+
+.style-2 {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 210%;
+    text-transform: uppercase;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    column-gap: 2rem;
+}
+
+.row {
+    display: flex;
+}
+
+.arrow {
+    width: 163.856px;
+    height: 176.606px;
+    flex-shrink: 0;
+}
