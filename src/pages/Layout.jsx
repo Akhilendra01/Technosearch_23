@@ -10,7 +10,7 @@ function Layout() {
         <DrawerAppBar />
         <Landing />
         <About />
-        {/* <Footer/> */}
+        <Footer/>
       {/* </CustomThemeProvider> */}
     </>
   )
